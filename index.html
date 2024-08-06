@@ -39,6 +39,30 @@
                     outreach to get more leads for your company.
                 </p>
                 <button>Request Beta Access</button>
+                <picture>
+                    <source
+                        media="(max-width: 425px)"
+                        srcset="
+                            /assets/image-hero-landscape.webp    343w,
+                            /assets/image-hero-landscape.png     343w,
+                            /assets/image-hero-landscape@2x.webp 686w,
+                            /assets/image-hero-landscape@2x.png  686w
+                        "
+                    />
+                    <source
+                        srcset="
+                            /assets/image-hero-portrait.webp    350w,
+                            /assets/image-hero-portrait.png     350w,
+                            /assets/image-hero-portrait@2x.webp 700w,
+                            /assets/image-hero-portrait@2x.png  700w
+                        "
+                    />
+
+                    <img
+                        src="/assets/image-hero-portrait.png"
+                        alt="A modern smartphone"
+                    />
+                </picture>
             </section>
 
             <section class="stats-container">
@@ -57,14 +81,32 @@
             </section>
 
             <section class="info-card">
-                <h2>It just <span>works.</span></h2>
-                <p>
-                    “I really like how it is an all-in-one solution that handle
-                    many of the tasks that you would normally need separate
-                    tools to do the same job. This thing is a miracle worker.”
-                </p>
-                <p>Jeremy Robinson</p>
-                <p>CMO, Fylo</p>
+                <picture>
+                    <source
+                        srcset="
+                            /assets/image-jeremy-large.webp    361w,
+                            /assets/image-jeremy-large.png     361w,
+                            /assets/image-jeremy-large@2x.webp 722w,
+                            /assets/image-jeremy-large@2x.png  722w
+                        "
+                    />
+                    <img
+                        src="/assets/image-jeremy-large.png"
+                        alt="A man using a phone"
+                    />
+                </picture>
+
+                <div class="info-card__text">
+                    <h2>It just <span>works.</span></h2>
+                    <p>
+                        “I really like how it is an all-in-one solution that
+                        handle many of the tasks that you would normally need
+                        separate tools to do the same job. This thing is a
+                        miracle worker.”
+                    </p>
+                    <p>Jeremy Robinson</p>
+                    <p>CMO, Fylo</p>
+                </div>
             </section>
         </main>
 
