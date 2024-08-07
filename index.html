@@ -83,6 +83,15 @@
             <section class="info-card">
                 <picture>
                     <source
+                        media="(max-width: 769px)"
+                        srcset="
+                            /assets/image-jeremy-small.webp    243w,
+                            /assets/image-jeremy-small.png     243w,
+                            /assets/image-jeremy-small@2x.webp 486w,
+                            /assets/image-jeremy-small@2x.png  486w
+                        "
+                    />
+                    <source
                         srcset="
                             /assets/image-jeremy-large.webp    361w,
                             /assets/image-jeremy-large.png     361w,
@@ -90,6 +99,7 @@
                             /assets/image-jeremy-large@2x.png  722w
                         "
                     />
+
                     <img
                         src="/assets/image-jeremy-large.png"
                         alt="A man using a phone"
@@ -104,8 +114,8 @@
                         separate tools to do the same job. This thing is a
                         miracle worker.”
                     </p>
-                    <p>Jeremy Robinson</p>
-                    <p>CMO, Fylo</p>
+                    <p class="info-card__name">Jeremy Robinson</p>
+                    <p class="info-card__company">CMO, Fylo</p>
                 </div>
             </section>
         </main>
